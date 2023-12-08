@@ -1,7 +1,8 @@
 ---
+import '../styles/global.css';
 import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "Home Page";
 ---
-<BaseLayout>
-  <h2>My awesome blog subtitle</h2>
+<BaseLayout pageTitle={pageTitle}>
+  <h2>My awesome page subtitle</h2>
 </BaseLayout>
